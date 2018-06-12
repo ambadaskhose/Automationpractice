@@ -102,10 +102,7 @@ class UserPurchasePage(SeleniumDriver):
         self.clickPayByBankWire()
         self.clickConfirmOrder()
 
-    def verifySuccessfulUserOrder(self):
-        result = self.isElementPresent("//strong[@class='dark'][contains(text(),'Your order on My Store is complete.')]"
-                                       ,'xpath')
-        return result
+    
 
 
 
