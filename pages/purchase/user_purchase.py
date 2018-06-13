@@ -102,7 +102,7 @@ class UserPurchasePage(SeleniumDriver):
         self.clickPayByBankWire()
         self.clickConfirmOrder()
 
-    
+
 
 
 

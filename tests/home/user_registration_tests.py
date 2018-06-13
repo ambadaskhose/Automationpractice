@@ -15,7 +15,7 @@ class UserRegistrationTests(unittest.TestCase):
 
     @pytest.mark.run(order=2)
     def test_userRegistrationSuccess(self):
-        self.userReg.userRegistration('556733@gmail.com','Sanath','Patil','xyz@123','ABC PLC',
+        self.userReg.userRegistration('007007@gmail.com','Automation','Practice','xyz@123','ABC PLC',
             'Outer Ring Road','Prime square','Florida','00002','HTC','9890000000','9881012345')
         result2 = self.userReg.verifyUserRegistrationSucess()
         self.ts.markFinal("test_userRegistrationSuccess",result2,
